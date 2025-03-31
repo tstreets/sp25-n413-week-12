@@ -1,0 +1,13 @@
+31-03-2025 19:59:11 - ERROR - 8.7.6 - 4.8 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+31-03-2025 19:59:11 - ERROR - 8.7.6 - 4.8 MB/256 MB - admin > Requested size larger than the original one
+31-03-2025 19:59:16 - ERROR - 8.7.6 - 4.8 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
