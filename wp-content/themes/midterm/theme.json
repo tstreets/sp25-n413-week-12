@@ -1,0 +1,73 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Blue",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{ "color": "#3498D8", "name": "Primary", "slug": "primary" },
+				{ "color": "#FA970A", "name": "Accent", "slug": "accent" },
+				{
+					"color": "#E5ECF1",
+					"name": "Background",
+					"slug": "background"
+				},
+				{ "color": "#000000", "name": "Text", "slug": "text" }
+			]
+		},
+		"layout": {
+			"contentSize": "820px",
+			"wideSize": "1300px"
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|background"
+		},
+		"spacing": {
+			"padding": {
+				"left": "50px",
+				"right": "50px"
+			}
+		},
+		"blocks": {
+			"core/paragraph": {
+				"css": ".author span { color: var(--wp--preset--color--accent); padding-right: 20px; }"
+			},
+			"core/navigation": {
+				"color": {
+					"background": "var:preset|color|primary"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "10px",
+						"top": "10px",
+						"left": "30px",
+						"right": "30px"
+					}
+				}
+			},
+			"core/navigation-link": {
+				"spacing": {
+					"padding": {
+						"bottom": "12px"
+					}
+				},
+				"css": ".brand { font-size: 20px; font-weight: bold; }"
+			},
+			"core/search": {
+				"spacing": {
+					"padding": {
+						"right": "20px"
+					}
+				}
+			},
+			"core/post-author-name": {
+				"color": {
+					"text": "var:preset|color|accent"
+				}
+			}
+		}
+	}
+}

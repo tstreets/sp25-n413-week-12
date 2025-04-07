@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Purple",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "color": "#9B59B6", "name": "Primary", "slug": "primary" },
+				{ "color": "#B5FA0A", "name": "Accent", "slug": "accent" },
+				{
+					"color": "#E5ECF1",
+					"name": "Background",
+					"slug": "background"
+				},
+				{ "color": "#000000", "name": "Text", "slug": "text" }
+			]
+		}
+	}
+}
