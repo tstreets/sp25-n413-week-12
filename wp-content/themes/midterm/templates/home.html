@@ -4,97 +4,30 @@
 <h1 class="wp-block-heading">Our Blog</h1>
 <!-- /wp:heading -->
 
-<!-- wp:group -->
-<div class="wp-block-group">
-  <!-- wp:heading {"level":2} -->
-  <h2 class="wp-block-heading">
-    How to Scale Your Business with SaaS Solutions
-  </h2>
-  <!-- /wp:heading -->
-  <!-- wp:paragraph -->
-  <p>
-    Growth comes with challenges, but the right SaaS tools can help businesses
-    scale efficiently. We break down how automation, data insights, and
-    cloud-based solutions empower companies to expand without increasing
-    complexity.
-  </p>
-  <!-- /wp:paragraph -->
+<!-- wp:query {"query": {"postType": "post", "orderBy": "date", "order": "desc", "perPage": 2, "taxQuery": {"category": [1,5]}}} -->
 
-  <!-- wp:paragraph {"className": "author"} -->
-  <p class="author">
-    <span>David Reynolds</span>
-    2/5/25
-  </p>
-  <!-- /wp:paragraph -->
+<!-- wp:post-template -->
+<!-- wp:post-title {"level": 2, "isLink": true} /-->
+<!-- wp:post-excerpt /-->
+
+<!-- wp:group {"layout": {"type": "flex", "flexWrap": "nowrap"}} -->
+<div class="wp-block-group">
+	<!-- wp:post-author-name /-->
+	<!-- wp:post-date /-->
 </div>
 <!-- /wp:group -->
+<!-- /wp:post-template -->
 
-<!-- wp:group -->
-<div class="wp-block-group">
-  <!-- wp:heading {"level":2} -->
-  <h2 class="wp-block-heading">
-    Security in the Cloud: Best Practices for 2025
-  </h2>
-  <!-- /wp:heading -->
-  <!-- wp:paragraph -->
-  <p>
-    As cyber threats become more sophisticated, ensuring the security of your
-    SaaS applications is critical. Learn key strategies for safeguarding data,
-    preventing breaches, and maintaining compliance in a cloud-first world.
-  </p>
-  <!-- /wp:paragraph -->
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
 
-  <!-- wp:paragraph {"className": "author"} -->
-  <p class="author">
-    <span>Sarah Patel</span>
-    1/24/25
-  </p>
-  <!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Sorry, having issues retrieving the blogs. Try again later.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
 
-<!-- wp:group -->
-<div class="wp-block-group">
-  <!-- wp:heading {"level":2} -->
-  <h2 class="wp-block-heading">
-    Boosting Productivity with Seamless Integrations
-  </h2>
-  <!-- /wp:heading -->
-  <!-- wp:paragraph -->
-  <p>
-    Connecting your favorite tools can make or break your workflow. In this
-    guide, we discuss the importance of integrations and how they enhance
-    efficiency, reduce manual work, and improve collaboration across teams.
-  </p>
-  <!-- /wp:paragraph -->
-
-  <!-- wp:paragraph {"className": "author"} -->
-  <p class="author">
-    <span>Michael Thompson</span>
-    11/15/24
-  </p>
-  <!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-
-<!-- wp:group -->
-<div class="wp-block-group">
-  <!-- wp:heading {"level":2} -->
-  <h2 class="wp-block-heading">The Future of SaaS: Trends to Watch in 2025</h2>
-  <!-- /wp:heading -->
-  <!-- wp:paragraph -->
-  <p>
-    As businesses continue to embrace digital transformation, SaaS is evolving
-    at an unprecedented pace. From AI-driven automation to low-code development,
-    we explore the biggest trends shaping the industry for the upcoming year.
-  </p>
-  <!-- /wp:paragraph -->
-
-  <!-- wp:paragraph {"className": "author"} -->
-  <p class="author">
-    <span>Emily Carter</span>
-    11/15/24
-  </p>
-  <!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
+<!-- /wp:query -->

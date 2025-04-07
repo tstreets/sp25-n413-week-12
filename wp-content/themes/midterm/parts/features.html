@@ -2,9 +2,20 @@
 <h2 class="wp-block-heading">Key Features</h2>
 <!-- /wp:heading -->
 
-<!-- wp:group {"tagName": "div", "layout":{"type": "flex", "flexWrap": "nowrap"}} -->
+<!-- wp:query {"query": {"postType": "post", "perPage": 2, "taxQuery": {"category": [6]}}} -->
+<!-- wp:post-template {"layout": {"type": "grid", "columnCount": 2}} -->
+
+<!-- wp:group {"layout": {"type": "flex", "flexWrap": "nowrap"}} -->
 <div class="wp-block-group">
-	<!-- wp:custom-blocks/feature-block /-->
-	<!-- wp:custom-blocks/feature-block /-->
+	<!-- wp:post-featured-image {"height": "200px"} /-->
+
+	<!-- wp:group -->
+	<div class="wp-block-group">
+		<!-- wp:post-title {"level": 4} /-->
+		<!-- wp:post-content /-->
+	</div>
+	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- /wp:query -->
